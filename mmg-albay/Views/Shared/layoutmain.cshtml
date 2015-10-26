@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/styles/resetter.css" rel="stylesheet" />
+    <link href="~/Content/styles/Site.css" rel="stylesheet" />    
+    <script src="~/Scripts/jquery-1.8.2.js"></script>
+
+   
+    @RenderSection("head", false)
+
+</head>
+<body>
+    <div id="header">
+       
+        <div id="inner">
+            <div><img id="logo" src="~/Content/images/mmglogo_small.png" /></div>        
+            <div id="title"><h1>MMG-Albay</h1></div>   
+                  
+         </div>
+    </div>
+
+    <div id="main_content">
+        <div id="main_content_inner">@RenderSection("header_content", false)</div>             
+    </div>
+
+
+    <div id="nav_control">
+        <div id="nav_inner">
+            <div id="social_media">
+                <ul>
+                    <li id="social_fb"></li>
+                    <li id="social_twitter"></li>
+                    <li id="social_youtube"></li>
+                    <li id="social_instagram"></li>
+                    <li id="social_linkedin"></li>
+                </ul> 
+            </div>
+            <nav id="headernav">
+                @Html.ActionLink("Tabaco", "Tabaco", "Main", null, new { id = "tabaco" })  &nbsp;&nbsp;
+                @Html.ActionLink("Legazpi", "Legazpi", "Main")&nbsp;&nbsp;
+                @Html.ActionLink("Ligao", "Ligao", "Main")&nbsp;&nbsp;
+                @Html.ActionLink("Polangui", "Polangui", "Main")
+            </nav>
+        </div>
+        
+        <div id="main_body">
+            <div id="main_body_inner">
+             @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    <footer id="main_footer">
+        <div id="inner_footer">
+                <div id="quick_links">
+                    <ul>
+                        <li>Tabaco</li>
+                        <li>Legazpi</li>
+                        <li>Ligao</li>
+                        <li>Polangui</li>
+                    </ul>           
+                </div>
+
+            <div id="members_area">
+                <button class="btn btn-primary" type="button">
+                    Cooperators <span class="badge">219</span>
+                </button>
+            </div>
+            <div id="employee_area">
+                <button class="btn" type="button">
+                    Employees <span class="badge">56</span>
+                </button>
+            </div>
+
+                <span id="copryright">
+                    http://www.mmg-albay.ph <br /> Copyright 2015
+                </span>
+               
+        </div>
+    </footer>
+   
+    @RenderSection("bottom_script", false)
+</body>
+</html>

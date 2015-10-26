@@ -1,0 +1,406 @@
+﻿@font-face {
+    font-family: 'TW';
+    src: url('../bootstrap/bootstrap-3.3.5-dist/fonts/TCM_____.TTF') format('truetype');
+}
+
+h2 {
+font-size:2em;
+}
+
+h3 {
+    font-size:1.6em;
+}
+
+body {
+ font-family:"TW";
+}
+
+div#header{
+height:80px;
+position:relative;
+}
+
+div#inner {
+padding-top:13px;
+margin-left:auto;
+margin-right:auto;
+width:900px;
+padding:30px;
+}
+
+div#inner div#title{
+font-size:4em;
+color:#336600;
+}
+
+div#coop{
+width:100%;
+text-align:center;
+
+background-color:#7afe05;
+background-color:#ffffff;
+padding:5px;
+}
+
+div#coop h1{
+color:#ffffff;
+
+}
+div#inner img{
+display: inline;
+float:left;
+}
+
+
+div#main_content {
+clear:left;
+height:150px;
+border-top:solid 1px #336600;
+border-bottom:solid 1px #336600;
+border-left:none;
+border-right:none;
+overflow:hidden;
+background-color:#ffffff;
+position:relative;
+}
+
+div#main_content_inner {
+margin-right:auto;
+margin-left:auto;
+display:block;
+position:relative;
+width:900px;
+}
+
+div#transition {
+position:absolute;
+left:0px;
+width:auto;
+padding-top:25px;
+display:inline;
+}
+
+div#transition img {
+height:20%;
+width:20%;
+display:inline;
+}
+
+
+
+div#nav_control {
+position:relative;
+}
+
+
+div#nav_inner {
+width:900px;
+padding-top:10px;
+margin-left:auto;
+margin-right:auto;
+position:relative;
+}
+
+div#social_media {
+display:inline;
+float:left;
+}
+
+#social_media li {
+margin: 0;
+padding: 0;
+list-style: none;
+display:inline;
+float:left;
+}
+
+li#social_fb {    
+    width: 25px;
+    height: 25px;    
+    background: url('../images/social_media.png');
+    background-position: -60px -1px;
+    margin-left: 10px;
+}
+
+
+li#social_twitter {    
+    width: 25px;
+    height: 25px;  
+    background: url('../images/social_media.png');
+    background-position:-1px -1px;
+    margin-left: 10px;
+}
+
+li#social_youtube {
+    width: 25px;
+    height: 25px;
+    background: url('../images/social_media.png');
+    background-position: -30px -1px;
+    margin-left:  10px;
+}
+
+li#social_instagram {    
+    width: 25px;
+    height: 25px;  
+    background: url('../images/social_media.png');
+    background-position: -1px -34px;
+    margin-left:  10px;
+}
+
+li#social_linkedin {    
+    width: 25px;
+    height: 25px;     
+    background: url('../images/social_media.png');
+    background-position: -88px -1px;
+    margin-left:  10px;
+}
+
+nav#headernav {
+display:inline;
+float:right;
+}
+
+nav#headernav a {
+font-size:1.3em;
+color:#336600;
+text-decoration:none;
+}
+
+div#main_body {
+clear:both;
+display:block;
+padding-left:0px;
+}
+
+div#main_body div#main_body_inner {
+margin-left:auto;
+margin-right:auto;
+width:900px;
+padding:30px;
+}
+
+footer {
+  display:block;
+ /* text-align: center;
+
+ */
+
+}
+
+    footer div#inner_footer {
+        margin-left:auto;
+        margin-right:auto;  
+        width:900px;
+        background-color:#336600;  
+        color:#ffffff;
+        padding: 30px;
+        height:150px;
+     }
+
+div#quick_links {
+width:150px;
+float:left;
+display:inline-block;
+margin-bottom:30px;
+}
+
+div#quick_links ul li{
+width:150px;
+float:left;
+display:inline-block;
+}
+
+span#copryright {
+clear:both;
+width:200px;
+float:left;
+display:block;
+margin-bottom:30px;
+}
+div#members_area{
+width:150px;
+float:right;
+display:inline-block;
+}
+
+div#employee_area{
+width:150px;
+float:right;
+display:inline-block;
+}
+
+
+footer button{
+font-family:"TW";
+padding:8px;
+color:#336600;
+background-color:#ffffff;
+border-radius: 7px;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border:1px solid #354f25;
+font-size:1.2em;
+}
+
+
+footer button span{
+font-family:"TW";
+padding:2px;
+color:#ffffff;
+background-color:#336600;
+border-radius: 7px;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border:1px solid #354f25;
+font-size:.7em;
+}
+
+
+footer button:hover{
+font-family:"TW";
+padding:8px;
+color:#000000;
+background-color:#ffffff;
+cursor:pointer;
+border-radius: 7px;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border:1px solid #354f25;
+font-size:1.2em;
+
+}
+
+
+
+
+/* CSS FOR VIEW CONTAINER TEMPLATES*/
+div#main_body div#view_ct {
+    position:relative;
+   background-color:#ffffff;
+
+}
+
+
+div#view_ct div.team_{
+   display:inline;
+   width:420px;
+   float:left;
+  background-color:#ffffff;
+}
+
+div#view_ct div.services_{
+  display:inline;
+   width:420px;
+   float:right;
+   background-color:#ffffff;
+}
+
+div#view_ct div.services_ ul {
+       margin-top:15px;
+ }
+
+div#view_ct div.services_ ul li{
+       clear:both;
+ }
+
+    div#view_ct div.services_ ul li div.with_check {
+        width: 25px;
+        height: 25px;
+        background-image: url('../images/check-small.png');
+        display: inline-block;
+        float:left;
+
+    }
+
+    div#view_ct div.services_ ul li div.services_info{        
+         display: inline-block;      
+         height:25px;
+         padding-left:10px;
+         float:left;
+         padding-top:5px;
+         font-size:1.2em;
+    }
+div#view_ct div.location_{
+   clear:both;
+   display:inline-block;
+   bottom:0px;  
+   background-color:#ffffff;
+   width:100%;
+   padding-top:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*from DEFAULT*/
+header, footer, nav, section {
+    display: block;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
